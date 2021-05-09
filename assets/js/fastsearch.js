@@ -34,7 +34,7 @@ window.onload = function () {
             }
         }
     };
-    xhr.open('GET', "../index.json");
+    xhr.open('GET', "https://stoic-hermann-f084f1.netlify.app/index.json");
     xhr.send();
 }
 
